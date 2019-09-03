@@ -1,0 +1,4 @@
+from pymongo import ASCENDING, DESCENDING
+
+MONGODB_INDEXES = {
+}

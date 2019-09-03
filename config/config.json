@@ -1,0 +1,41 @@
+{
+    "server_name": "jd-ss-goods",
+    "debug": true,
+    "mongodb": {
+      "xdmp": {
+        "host": "127.0.0.1",
+        "port": 27017,
+        "maxPoolSize": 1000,
+        "tz_aware": true,
+        "socketTimeoutMS": null,
+        "connectTimeoutMS": 1000,
+        "w": 1,
+        "wtimeout": 10000,
+        "j": false,
+        "name": "xdmp",
+        "auth": null,
+        "replicaSet": null,
+        "read_preference": "primary",
+        "unicode_decode_error_handler": "replace"
+      }
+    },
+    "redis": {
+      "ss": {
+        "host": "127.0.0.1",
+        "port": 6379,
+        "db": 2,
+        "socket_timeout": 1
+      }
+    },
+    "elasticsearch": {
+      "host": "127.0.0.1",
+      "port": 9200
+    },
+    "log": {
+        "path": "/home/zyf/xiaoduo/log/",
+        "level": "DEBUG"
+    },
+    "client": {
+        "sdk": "http://127.0.0.1:8091"
+    }
+}
